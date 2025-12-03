@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Foods</title>
+    <style>
+        /* ====================  Navbar  ============================================================= */
+
+*{
+    padding: 0;
+}
+nav{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: rgb(240, 216, 220);
+    box-shadow: 3px 30px 8px rgb(171, 171, 171);
+}
+nav a{
+    text-decoration: none;
+}
+.logo a{
+    color: black;
+    letter-spacing: 0.5rem;
+}
+.menu a{
+    padding: 20px 30px;
+    align-items: center;
+    gap: 2rem;
+    color: maroon;
+    font-weight: 700;
+    
+}
+
+/* =======================  center  ========================================================== */
+
+.recipes{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.food{
+    margin: 10px;
+    padding: 10px;
+    background: rgb(244, 241, 241);
+    border-radius: 10px;
+    box-shadow: 3px 30px 8px rgb(171, 171, 171);
+}
+
+.food img{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 25rem;
+}
+
+/* ====================  Footer  ============================================================= */
+
+footer{
+    padding: 20px;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    color: maroon;
+    /* align-items: center; */
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: rgb(240, 216, 220);
+    box-shadow: 3px 30px 8px rgb(171, 171, 171);
+
+}
+.quick a{
+    /* text-decoration: none; */
+    color: maroon;
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#"> RECIPES_BOOK </a>
+        </div>
+        <div class="menu">
+            <a href="home.html"> Home </a>
+            <a href="menu.html"> Menu </a>
+            <a href="#"> About </a>
+        </div>
+    </nav>
+    <div class="recipes">
+    <div class="food">
+        <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-5.jpg" alt="Paneer Butter Masala">
+        <details>
+            <summary><h3>Paneer Butter Masala</h3></summary>
+            <p><strong>Ingredients:</strong> Paneer (250g), Butter (2 tbsp), Tomato (3), Cream (3 tbsp), Garam masala, Onion, Ginger-garlic paste, Salt.</p>
+            <p><strong>Calories:</strong> ~350 kcal/serving • Prep: 30–35 min</p>
+            <p><strong>Steps:</strong><br>
+                Paneer ko cubes me kaat lo; agar chaho halka fry karlo.<br>
+                Tomatoes + onion ko bhune aur blender se smooth paste bana lo.<br>
+                Pan me butter garam karo, ginger-garlic daalo, bhuno.<br>
+                Tomato-onion paste add karo, masale (garam masala, salt) daal kar 8–10 min pakao.<br>
+                Cream aur thoda pani daal kar gravy set karo, paneer add karke 5 min halki aanch par simmer karo.<br>
+                Fresh cream/kasuri methi se garnish karke serve karo.
+            </p>
+        </details>
+    </div>
+
+    <div class="food">
+        <img src="https://static.toiimg.com/thumb/57746323.cms?imgsize=237575&width=800&height=800" alt="Dal tadka">
+        <details>
+            <summary><h3>Dal Tadka</h3></summary>
+            <p><strong>Ingredients:</strong> Toor/masoor dal (1 cup), Ghee (1 tbsp), Garlic, Tomato, Cumin, Turmeric, Red chilli, Salt.</p>
+            <p><strong>Calories:</strong> ~220 kcal/serving • Prep: 25–30 min</p>
+            <p><strong>Steps:</strong><br>
+                Dal ko dhokar 2-3 cups paani aur haldi ke saath pressure cook karo till soft.<br>
+                Pan me ghee garam karo; jeera daalo, phir kali mirch/lasun fry karo.<br>
+                Finely chopped tomato add karo aur soft hone tak bhuno.<br>
+                Cooked dal pan me daal kar consistency set karo, zarurat ho to pani aur namak adjust karo.<br>
+                Tadka ke liye ghee me rai, jeera, laal mirch aur hing ka tadka bana ke upar daal do.<br>
+                Hara dhaniya se garnish karke serve karo.
+            </p>
+        </details>
+    </div>
+
+    <div class="food">
+        <img src="https://i.pinimg.com/736x/80/3f/f0/803ff029867e021b7b4193f58e1c4ad1.jpg" alt="chhole">
+        <details>
+            <summary><h3>Chole Bhature</h3></summary>
+            <p><strong>Ingredients (chole):</strong> Kabuli chana (1 cup), Onion, Tomato, Chole masala, Ginger-garlic;<br>
+               <strong>(bhature):</strong> Maida, Yogurt, Baking powder, Salt.</p>
+            <p><strong>Calories:</strong> ~600 kcal/plate • Prep: ~1 hr (soak + cook)</p>
+            <p><strong>Steps:</strong><br>
+                Chane ko raat bhar bhigo do. Pressure cook karke soft karo.<br>
+                Pan me oil, jeera, chopped onion bhuno; ginger-garlic aur tomatoes add karo.<br>
+                Chole masala, namak daal kar thoda bhuno; cooked chane add karke 10–15 min dum pe pakao.<br>
+                Bhature ke liye maida + dahi + baking powder + namak se soft dough banake 30 min rest karao.<br>
+                Dough se balls le ke belan se roll karo aur garam tel me deep fry karo till puff ho jaye.<br>
+                Garam chole aur bhature serve karo—achar/onion ke saath.
+            </p>
+        </details>
+    </div>
+
+    <div class="food">
+        <img src="https://www.secondrecipe.com/wp-content/uploads/2017/08/rajma-chawal-1-500x375.jpg" alt="Rajma chawal">
+        <details>
+            <summary><h3>Rajma Chawal</h3></summary>
+            <p><strong>Ingredients:</strong> Rajma (1 cup), Onion, Tomato, Rice (1 cup), Garam masala, Ginger-garlic.</p>
+            <p><strong>Calories:</strong> ~450 kcal/serving • Prep: ~1 hr</p>
+            <p><strong>Steps:</strong><br>
+                Rajma raat bhar bhigo kar pressure cook karo until soft.<br>
+                Pan me oil, chopped onion bhuno; ginger-garlic paste aur tomato add karo.<br>
+                Masale (turmeric, red chilli, garam masala) daal kar gravy banao.<br>
+                Cooked rajma gravy me daal ke 10–15 min dhimi aanch pe pakao; pani adjust karo.<br>
+                Rice separately jeera + thoda oil me bhun kar paani add karke pakao.<br>
+                Rajma chawal garam garam serve karo.
+            </p>
+        </details>
+    </div>
+
+    <div class="food">
+        <img src="https://vismaifood.com/storage/app/uploads/public/8b4/19e/427/thumb__1200_0_0_0_auto.jpg" alt="Masala Dosa">
+        <details>
+            <summary><h3>Masala Dosa</h3></summary>
+            <p><strong>Ingredients:</strong> Dosa batter (ready), Potato (2–3), Mustard seeds, Curry leaves, Green chilli, Turmeric, Onion.</p>
+            <p><strong>Calories:</strong> ~300 kcal/dosa • Prep: 30–40 min (batter ready assumed)</p>
+            <p><strong>Steps:</strong><br>
+                Sabse pehle aloo boil kar ke peel aur mash karo.<br>
+                Pan me oil, rai, curry leaves, chopped onion aur green chilli bhuno; haldi aur mashed aloo mix karo; namak aur thoda lemon daal kar mix.<br>
+                Tawa garam karo, thoda oil lagao, batter thoda patla kar ke circular spread karo.<br>
+                Dosa crispy hone par aloo masala beech me rakho aur fold kar do.<br>
+                Coconut chutney/sambar ke saath serve karo.
+            </p>
+        </details>
+    </div>
+</div>
+
+    <div class="recipes">
+
+    <div class="food">
+        <img src="https://www.cookwithmanali.com/wp-content/uploads/2018/05/Best-Pav-Bhaji-Recipe.jpg" alt="Pav Bhaji">
+        <details>
+            <summary><h3>Pav Bhaji</h3></summary>
+            <p><strong>Ingredients:</strong> Mixed veggies (potato, peas, capsicum, cauliflower), Pav masala, Butter, Tomatoes, Pav.</p>
+            <p><strong>Calories:</strong> ~420 kcal/serving • Prep: 40 min</p>
+            <p><strong>Steps:</strong><br>
+                Sab vegetables ko boil ya pressure cook karke mash kar lo.<br>
+                Pan me butter/ghee, chopped onion bhuno; tomato add karke masala bhuno.<br>
+                Pav masala aur mashed veggies add karo; thoda pani daal ke 10–12 min pakao.<br>
+                Consistency thick rakhna—achhi tarah mash karo (masher use karo).<br>
+                Pav ko butter me shallow fry karke serve karo.<br>
+                Lemon aur finely chopped onion saath serve karo.
+            </p>
+        </details>
+    </div>
+
+    <div class="food">
+        <img src="https://madhurasrecipe.com/wp-content/uploads/2020/10/Dhaba-Style-Aloo-Paratha-feature.jpg" alt="Aloo Paratha">
+        <details>
+            <summary><h3>Aloo Paratha</h3></summary>
+            <p><strong>Ingredients:</strong> Wheat flour (atta), Boiled potato (2), Coriander, Green chilli, Ghee/Butter.</p>
+            <p><strong>Calories:</strong> ~300–350 kcal/paratha • Prep: 30–35 min</p>
+            <p><strong>Steps:</strong><br>
+                Atta se soft dough banake 15–20 min rest karao.<br>
+                Boiled aloo mash karo; chopped coriander, mirch, salt aur jeera powder mix karo.<br>
+                Dough ka ball leke bel kar stuffing rakh kar seal karo aur phir belan se paratha bel lo.<br>
+                Tawa garam karke thoda ghee laga ke dono taraf golden brown tak sekho.<br>
+                Serve with dahi/achar/butter.
+            </p>
+        </details>
+    </div>
+
+    <div class="food">
+        <img src="https://www.cookwithmanali.com/wp-content/uploads/2014/08/Baingan-Bharta.jpg" alt="Baingan Bharta">
+        <details>
+            <summary><h3>Baingan Bharta</h3></summary>
+            <p><strong>Ingredients:</strong> Eggplant (large), Onion, Tomato, Garlic, Mustard oil, Coriander.</p>
+            <p><strong>Calories:</strong> ~180 kcal/serving • Prep: 35–40 min</p>
+            <p><strong>Steps:</strong><br>
+                Baingan ko direct flame/parchment oven pe roast karo jab tak skin char aur pulp soft ho jaye.<br>
+                Thanda hone par peel kar pulp ko finely mash karo.<br>
+                Pan me oil, chopped onion + garlic bhuno; tomatoes add karke masala banao.<br>
+                Mashed baingan add karo, thoda namak, haldi, mirch daal ke 8–10 min pakao.<br>
+                Hara dhaniya daal kar serve karo.
+            </p>
+        </details>
+    </div>
+
+    <div class="food">
+        <img src="https://i.ytimg.com/vi/Do7ZdUodDdw/maxresdefault.jpg" alt="Veg Biryani">
+        <details>
+            <summary><h3>Veg Biryani</h3></summary>
+            <p><strong>Ingredients:</strong> Basmati rice, Mixed vegetables (carrot, peas, potato), Biryani masala, Yogurt, Onion, Saffron (optional).</p>
+            <p><strong>Calories:</strong> ~450–500 kcal/serving • Prep: 45–60 min</p>
+            <p><strong>Steps:</strong><br>
+                Rice ko 70% tak parboil karo (salt, bay leaf).<br>
+                Pan me ghee, sliced onions fry karke golden karo (birista).<br>
+                Veg bhuno, biryani masala aur dahi add karke thoda gravy banao.<br>
+                Layering: handi me pehle thoda veg mixture, phir rice, phir birista aur saffron milk; layer repeat karo.<br>
+                Dum ke liye handi ko tight bandh kar 15–20 min low flame pe rakh do (dum).<br>
+                Halke se fluff karke serve karo.
+            </p>
+        </details>
+    </div>
+
+    <div class="food">
+        <img src="https://www.chefajaychopra.com/assets/img/recipe/1-1666433552palakpaneer1webp.webp" alt="Palak Paneer">
+        <details>
+            <summary><h3>Palak Paneer</h3></summary>
+            <p><strong>Ingredients:</strong> Spinach (250g), Paneer, Onion, Garlic, Cream (optional).</p>
+            <p><strong>Calories:</strong> ~320 kcal/serving • Prep: 30–35 min</p>
+            <p><strong>Steps:</strong><br>
+                Palak ko blanch karke thanda kar ke blender me smooth puree bana lo.<br>
+                Pan me oil/ghee, chopped onion + garlic bhuno.<br>
+                Palak puree daal kar 5–7 min pakao, namak aur garam masala add karo.<br>
+                Paneer cubes lightly fry karke palak me add karo; cream daal kar 2 min simmer karo.<br>
+                Serve with roti/naan.
+            </p>
+        </details>
+    </div>
+
+</div>
+
+
+<div class="recipes">
+
+    <div class="food">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRww0KWQk_rUgBXSDegjSElGosuZQU31-4e3w&s" alt="Sambar Idli">
+        <h3>Sambar Idli</h3>
+        <details>
+            <summary>View Recipe</summary>
+            <p><strong>Ingredients (sambar):</strong> Toor dal, Tamarind, Mixed veggies (drumstick, carrot), Sambar masala; <br><strong>(idli):</strong> Idli batter ready.</p>
+            <p><strong>Calories:</strong> ~250–300 kcal / 2 idlis + sambar • Prep: 30–45 min (batter ready)</p>
+            <p><strong>Steps:</strong></p>
+            <ol>
+                <li>Toor dal ko cook karke mash karo.</li>
+                <li>Pan me oil, mustard, curry leaves temper karo; chopped veggies add karo aur thoda pakao.</li>
+                <li>Tamarind pulp + sambar masala aur cooked dal add karo; 10–15 min simmer.</li>
+                <li>Idli batter se idli steam karo (10–12 min).</li>
+                <li>Garam sambar ke saath idli serve karo.</li>
+            </ol>
+        </details>
+    </div>
+
+    <div class="food">
+        <img src="https://static.toiimg.com/photo/53251884.cms" alt="Matar Paneer">
+        <h3>Matar Paneer</h3>
+        <details>
+            <summary>View Recipe</summary>
+            <p><strong>Ingredients:</strong> Paneer (200g), Green peas (1 cup), Tomato, Onion, Garam masala.</p>
+            <p><strong>Calories:</strong> ~330 kcal/serving • Prep: 30–35 min</p>
+            <p><strong>Steps:</strong></p>
+            <ol>
+                <li>Pan me oil, onion bhuno; tomato add karke smooth gravy banao.</li>
+                <li>Peas add karke thoda pani daal kar 8–10 min cook karo.</li>
+                <li>Paneer cubes add karo aur 5–7 min simmer karo.</li>
+                <li>Garam masala aur hara dhaniya se garnish karke serve karo.</li>
+            </ol>
+        </details>
+    </div>
+
+    <div class="food">
+        <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2018/07/pulao-recipe.jpg" alt="Veg Pulao">
+        <h3>Veg Pulao</h3>
+        <details>
+            <summary>View Recipe</summary>
+            <p><strong>Ingredients:</strong> Basmati rice, Mixed veg, Whole spices (clove, bay, cinnamon), Ghee/oil.</p>
+            <p><strong>Calories:</strong> ~350 kcal/serving • Prep: 30–35 min</p>
+            <p><strong>Steps:</strong></p>
+            <ol>
+                <li>Ghee me whole spices bhuno, sliced onions daal ke golden karo.</li>
+                <li>Mixed veg add karo, thoda bhuno; rice daal kar 2 min toss karo.</li>
+                <li>Paani (rice:water = 1:2 approx) add karo, namak daal ke lid se pakao.</li>
+                <li>Steam se 5 min rest kar ke fluff karo aur serve karo.</li>
+            </ol>
+        </details>
+    </div>
+
+    <div class="food">
+        <img src="https://i.pinimg.com/736x/c2/5b/44/c25b441dc12a67a65680b241b9a6806a.jpg" alt="Kadhi Pakora">
+        <h3>Kadhi Pakora</h3>
+        <details>
+            <summary>View Recipe</summary>
+            <p><strong>Ingredients:</strong> Besan (for kadhi + pakora), Yogurt, Onion (for pakora), Mustard seeds, Curry leaves.</p>
+            <p><strong>Calories:</strong> ~380 kcal/serving • Prep: 40–50 min</p>
+            <p><strong>Steps:</strong></p>
+            <ol>
+                <li>Pakora batter: besan + sliced onion + spices, thoda pani se thick batter banao; small pakore fry karo.</li>
+                <li>Kadhi ke liye dahi aur besan ko mix kar ke smooth batter banalo.</li>
+                <li>Pan me oil, mustard, curry leaves tadka, phir kadhi batter daal kar continuously stir karo till boil.</li>
+                <li>Simmer pe 15–20 min pakao till raw besan smell chala jaye.</li>
+                <li>Fried pakore kadhi me daal ke 5 min aur cook karo.</li>
+                <li>Serve with chawal.</li>
+            </ol>
+        </details>
+    </div>
+
+    <div class="food">
+        <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2019/05/stuffed-capsicum-stuffed-bell-pepper-recipe.jpg" alt="Stuffed Capsicum">
+        <h3>Stuffed Capsicum</h3>
+        <details>
+            <summary>View Recipe</summary>
+            <p><strong>Ingredients:</strong> Large capsicums (4), Spiced potato/veg stuffing (boiled potato + spices), Onion, Tomato, Cheese (optional).</p>
+            <p><strong>Calories:</strong> ~220–300 kcal/one stuffed capsicum • Prep: 35–45 min</p>
+            <p><strong>Steps:</strong></p>
+            <ol>
+                <li>Capsicum ke tops cut karke seeds nikaal do.</li>
+                <li>Stuffing banane ke liye boiled mashed potato + sautéed onion, tomato, spices mix karo.</li>
+                <li>Capsicums me stuffing bhar do; upar cheese sprinkle karo (optional).</li>
+                <li>Oven me 180°C par 15–20 min bake karo ya pan me thoda tel dal kar covered cook karo till soft.</li>
+                <li>Serve hot.</li>
+            </ol>
+        </details>
+    </div>
+
+</div>
+
+<div class="recipes">
+
+    <div class="food">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsT8TUD-NzEQeESGXCTvbEFMbcMp-heDW-Kw&s" alt="Malai Kofta">
+        <h3>Malai Kofta</h3>
+        <details>
+            <summary>View Recipe</summary>
+            <p><strong>Ingredients:</strong> Paneer + potato for kofta, Cashew paste, Tomato + cream gravy, Cardamom.</p>
+            <p><strong>Calories:</strong> ~420 kcal/serving • Prep: 45–50 min</p>
+            <p><strong>Steps:</strong></p>
+            <ol>
+                <li>Koftas ke liye paneer + boiled potato mash karke small balls banake lightly fry karo.</li>
+                <li>Gravy: onion-tomato bhune, cashew paste add karo aur smooth gravy banao.</li>
+                <li>Gravy me cream aur spices daal kar thick karo.</li>
+                <li>Fry ki hui koftas ko gravy me serve karte waqt daalo (dum pe zyada mat pakao warna toot sakte hain).</li>
+                <li>Garnish with cream / crushed cardamom.</li>
+            </ol>
+        </details>
+    </div>
+
+    <div class="food">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKYx5bhwsJ9mcnEFZZu_Nfl9wnXVe7vVKxAQ&s" alt="Jeera Rice">
+        <h3>Jeera Rice</h3>
+        <details>
+            <summary>View Recipe</summary>
+            <p><strong>Ingredients:</strong> Basmati rice, Cumin seeds (jeera), Ghee, Bay leaf.</p>
+            <p><strong>Calories:</strong> ~200 kcal/serving • Prep: 20–25 min</p>
+            <p><strong>Steps:</strong></p>
+            <ol>
+                <li>Basmati rice ko wash karke 20 min soak karo.</li>
+                <li>Pan me ghee garam karo, jeera aur bay leaf daal kar tadka lagao.</li>
+                <li>Soaked rice daal kar 1 min bhuno, phir paani + namak daal kar lid close karo.</li>
+                <li>Medium flame par 10–12 min cook karo jab tak rice fluffy ho jaye.</li>
+                <li>Serve hot with curry / dal.</li>
+            </ol>
+        </details>
+    </div>
+
+    <div class="food">
+        <img src="https://kannanskitchen.com/wp-content/uploads/2022/11/DSC_3164-500x500.jpg" alt="Poori Sabzi">
+        <h3>Poori Sabzi</h3>
+        <details>
+            <summary>View Recipe</summary>
+            <p><strong>Ingredients (poori):</strong> Wheat flour, Oil; <strong>(sabzi):</strong> Potato, Tomato, Spices (turmeric, garam masala).</p>
+            <p><strong>Calories:</strong> ~450–500 kcal/plate • Prep: 40–45 min</p>
+            <p><strong>Steps:</strong></p>
+            <ol>
+                <li>Poori dough: atta + thoda oil + namak se tight dough banao, rest 10 min.</li>
+                <li>Dough se small balls le kar bel ke discs bana lo.</li>
+                <li>Deep fry in hot oil till puff aur golden.</li>
+                <li>Sabzi ke liye boiled potato cube kar ke onion-tomato tadka, spices daal kar gravy bana lo.</li>
+                <li>Poori garam-garam sabzi ke saath serve karo.</li>
+            </ol>
+        </details>
+    </div>
+
+    <div class="food">
+        <img src="https://aromaticessence.co/wp-content/uploads/2022/06/punjabi_bhindi_masala_gravy_featured.jpg" alt="Bhindi Masala">
+        <h3>Bhindi Masala</h3>
+        <details>
+            <summary>View Recipe</summary>
+            <p><strong>Ingredients:</strong> Bhindi (okra 300g), Onion, Tomato, Coriander, Spices (turmeric, coriander powder).</p>
+            <p><strong>Calories:</strong> ~160 kcal/serving • Prep: 25–30 min</p>
+            <p><strong>Steps:</strong></p>
+            <ol>
+                <li>Bhindi ko dhoke pocha karo (dry hone chahiye), phir slices karo.</li>
+                <li>Pan me thoda oil garam kar ke bhindi ko separately roast/cook karo till crisp.</li>
+                <li>Dusre pan me onion-tomato bhuno, masale add karo.</li>
+                <li>Roast ki hui bhindi add kar ke 5–7 min mix karo.</li>
+                <li>Hara dhaniya se garnish kar ke serve karo.</li>
+            </ol>
+        </details>
+    </div>
+
+    <div class="food">
+        <img src="https://cheeseforthought.com/wp-content/uploads/2024/09/indian-pub-shahi-paneer-masala-recipe.png" alt="Shahi Paneer">
+        <h3>Shahi Paneer</h3>
+        <details>
+            <summary>View Recipe</summary>
+            <p><strong>Ingredients:</strong> Paneer, Cream, Cashew paste, Tomato-onion gravy, Cardamom, Sugar pinch.</p>
+            <p><strong>Calories:</strong> ~420 kcal/serving • Prep: 35–40 min</p>
+            <p><strong>Steps:</strong></p>
+            <ol>
+                <li>Onion aur tomato bhune aur blender se smooth paste bana lo (saath me thoda cashew paste add karo).</li>
+                <li>Pan me ghee, paste daal kar cook karo; thoda sugar aur garam masala add karo for royal taste.</li>
+                <li>Paneer cubes halka fry karke gravy me add karo.</li>
+                <li>Cream daal kar 5 min simmer karo; cardamom powder sprinkle karo.</li>
+                <li>Serve with naan/roti.</li>
+            </ol>
+        </details>
+    </div>
+
+</div>
+
+    <footer>
+        <div class="contact">
+            <h3> Contact Information </h3>
+            <p> * Email :- bhumikanamdev24@navgurukul.org </p>
+            <p> * Phone Number :- 9617491718 </p>
+        </div>
+        <div class="social">
+            <h3> Social Media </h3>
+            <p>* Facebook </p>
+            <p>* Instagram </p>
+            <p> * YouTube </p>
+            <p> Follow us on Instagram, YouTube, Facebook</p>
+
+        </div>
+        <div class="quick">
+            <h3>Quick Links </h3>
+            <p><a href="menu.html">Manu</a></p>
+        </div>
+        <div class="aboutF">
+            <h3>About Section</h3>
+            <p>"This website is a simple recipe collaction made with love for food lovers."</p>
+        </div>
+    </footer>
+</body>
+</html>

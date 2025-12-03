@@ -1,0 +1,78 @@
+/* ====================  Navbar  ============================================================= */
+
+*{
+    padding: 0;
+}
+nav{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;border-radius: 10px;
+    background-color: rgb(240, 216, 220);
+    box-shadow: 5px 10px 8px rgb(203, 201, 201);
+    
+}
+nav a{
+    text-decoration: none;
+}
+.logo a{
+    color: black;
+    letter-spacing: 0.5rem;
+}
+.menu a{
+    padding: 20px 30px;
+    align-items: center;
+    gap: 2rem;
+    color: maroon;
+    font-weight: 700;
+    
+}
+
+/* =======================  center  ========================================================== */
+
+#hh{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px 0;
+    width: 100vw;
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px rgb(203, 201, 201);
+}
+ img{
+    border-radius: 10px;
+ }
+
+.image{
+    padding: 10px;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    width: 100vw;
+    gap: 5rem;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(244, 241, 241);
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px rgb(203, 201, 201);
+}
+
+/* ====================  Footer  ============================================================= */
+
+footer{
+    padding: 20px;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    color: maroon;
+    /* align-items: center; */
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: rgb(240, 216, 220);
+    box-shadow: 5px 10px 8px rgb(203, 201, 201);
+}
+.quick a{
+    /* text-decoration: none; */
+    color: maroon;
+} 

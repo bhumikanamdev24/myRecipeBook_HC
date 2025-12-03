@@ -1,0 +1,78 @@
+
+*{
+    padding: 0;
+}
+nav{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;border-radius: 10px;
+    background-color: rgb(240, 216, 220);
+    box-shadow: 5px 10px 8px rgb(203, 201, 201);
+    
+}
+nav a{
+    text-decoration: none;
+}
+.logo a{
+    color: black;
+    letter-spacing: 0.5rem;
+}
+.menu a{
+    padding: 20px 30px;
+    align-items: center;
+    gap: 2rem;
+    color: maroon;
+    font-weight: 700;
+    
+}
+
+/* ============================ Center ============================================================== */
+
+.recipes{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.food{
+    margin: 10px;
+    padding: 10px;
+    background: rgb(249, 235, 235);
+    border-radius: 10px;
+    box-shadow: 3px 30px 8px rgb(171, 171, 171);
+}
+
+.food img{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 25rem;
+}
+
+
+
+/* ================================= Footer ========================================================================= */
+
+
+
+footer{
+    padding: 20px;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    color: maroon;
+    /* align-items: center; */
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: rgb(240, 216, 220);
+    box-shadow: 5px 10px 8px rgb(203, 201, 201);
+}
+.quick a{
+    /* text-decoration: none; */
+    color: maroon;
+} 

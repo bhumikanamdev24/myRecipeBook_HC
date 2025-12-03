@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe's Menu</title>
+     <style>
+   *{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+nav{
+padding: 10px;
+display: flex;
+height: 10vh;
+width: 100vw;
+align-items: center;
+justify-content: space-between;
+font-size: 25px;
+background-color: rgba(255, 194, 255, 0.845);
+}
+nav a{
+text-decoration: none;
+}
+.logo a{
+color: black;
+letter-spacing: 0.5rem;
+}
+.menu a{
+padding: 20px 30px;
+align-items: center;
+gap: 2rem;
+color: maroon;
+font-weight: 700;
+}
+
+/* ======================== Center's part ========================== */
+
+.menus{
+padding: 20px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 20px;
+background: rgb(244, 241, 241);
+}
+
+.indianfood{
+background: white;
+padding: 20px;
+border-radius: 15px;
+box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.indianfood:hover{
+transform: translateY(-5px);
+box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
+
+.indianfood h2 a{
+color: maroon;
+font-size: 20px;
+text-decoration: none;
+}
+
+.indianfood ul{
+list-style: none;
+margin-top: 10px;
+max-height: 300px;
+overflow-y: auto;
+padding-right: 5px;
+}
+
+.indianfood ul li{
+padding: 6px 0;
+border-bottom: 1px solid #f0f0f0;
+color: #333;
+transition: color 0.3s;
+}
+
+.indianfood ul li:hover{
+color: maroon;
+}
+
+/* ======================== Footer ========================== */
+
+footer{
+padding: 30px 20px;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+color: maroon;
+justify-content: space-between;
+background-color: rgba(255, 194, 255, 0.845);
+}
+
+footer h3{
+margin-bottom: 10px;
+}
+
+footer p, footer a{
+color: maroon;
+font-size: 14px;
+text-decoration: none;
+margin: 3px 0;
+}
+
+/* ======================== Scrollbar for lists ========================== */
+.indianfood ul::-webkit-scrollbar {
+width: 6px;
+}
+
+.indianfood ul::-webkit-scrollbar-thumb {
+background-color: maroon;
+border-radius: 3px;
+}
+
+/* ======================== Responsive ========================== */
+@media(max-width: 768px){
+.menus{
+grid-template-columns: 1fr 1fr;
+}
+}
+
+@media(max-width: 480px){
+.menus{
+grid-template-columns: 1fr;
+}
+}
+</style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#"> RECIPES_BOOK </a>
+        </div>
+        <div class="menu">
+            <a href="home.html"> Home </a>
+            <a href="menu.html"> Menu </a>
+            <a href="#"> About </a>
+        </div>
+    </nav>
+
+    <div class="menus">
+        <div class="indianfood">
+            <h2><a href="indianfood.html">Indian Foods </a></h2>
+            <ul>
+                <li>Paneer Butter</li>
+                <li>Dal Tadka</li>
+                <li>Chole Bhature</li>
+                <li>Rajma Chawal</li>
+                <li>Masala Dosa</li>
+                <li>Pav Bhaji</li>
+                <li>Aloo Paratha</li>
+                <li>Baingan Barta</li>
+                <li>Veg Biryani</li>
+                <li>Palak Paneer</li>
+                <li>Sambar Idli</li>
+                <li>Matar Paneer</li>
+                <li>Veg Pulao</li>
+                <li>Kadhi Pakora</li>
+                <li>Stuffed Capsicum</li>
+                <li>Malai Kofta</li>
+                <li>Jeera Rice</li>
+                <li>Bhindi Masala</li>
+                <li>Poori Sabzi</li>
+                <li>Shahi Paneer</li>
+            </ul>
+        </div>
+
+        <div class="indianfood">
+            <h2><a href="cg.html">Chhattisgarhi Foods</a></h2>
+            <ul>
+                <li>Chana Samosa</li>
+                <li>Dubki Kadi</li>
+                <li>Fara (Rice Dumplings)</li>
+                <li>Chousela Roti</li>
+                <li>Angakar Roti</li>
+                <li>Thethari</li>
+                <li>Khurma</li>
+                <li>Tilgur Ladoo</li>
+                <li>Bara (Vada)</li>
+                <li>Moong Dal Halwa</li>
+                <li>Aamat (Veg Curry)</li>
+                <li>Bafauri</li>
+                <li>Muthia</li>
+                <li>Bhajia (Pakoda)</li>
+                <li>Chana Dal Chutney</li>
+                <li>Tilkut</li>
+                <li>Kusli</li>
+                <li>Bore Basi</li>
+                <li>Doodh Fara</li>
+                <li>Pidiya</li>
+            </ul>
+        </div>
+
+        <div class="indianfood">
+            <h2><a href="nonveg.html">Non-Veg Foods</a></h2>
+            <ul>
+                <li>Butter Chicken</li>
+                <li>Chicken Biryani</li>
+                <li>Mutton Rogan Josh</li>
+                <li>Fish Curry</li>
+                <li>Chicken Tikka Masala</li>
+                <li>Egg Curry</li>
+                <li>Prawn Masala</li>
+                <li>Mutton Biryani</li>
+                <li>Tandoori Chicken</li>
+                <li>Chicken Curry</li>
+                <li>Keema Matar</li>
+                <li>Mutton Korma</li>
+                <li>Fish Fry</li>
+                <li>Chicken 65</li>
+                <li>Egg Biryani</li>
+                <li>Mutton Keema Paratha</li>
+                <li>Prawn Biryani</li>
+                <li>Chicken Seekh Kebab</li>
+                <li>Mutton Handi</li>
+                <li>Egg Bhurji</li>
+            </ul>
+        </div>
+
+        <div class="indianfood">
+            <h2><a href="sweet.html">Sweets</a></h2>
+            <ul>
+                <li>Gulab Jamun</li>
+                <li>Rasgulla</li>
+                <li>Jalebi</li>
+                <li>Kaju Katli</li>
+                <li>Rasmalai</li>
+                <li>Motichoor Laddu</li>
+                <li>Besan Laddu</li>
+                <li>Soan Papdi</li>
+                <li>Malpua</li>
+                <li>Rabri</li>
+                <li>Gajar ka Halwa</li>
+                <li>>Moong Dal Halwa</li>
+                <li>Mysore Pak</li>
+                <li>Peda</li>
+                <li>Imarti</li>
+                <li>Cham Cham</li>
+                <li>Balushahi</li>
+                <li>Sandesh</li>
+                <li>Shrikhand</li>
+                <li>Modak</li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="menus">
+        <div class="indianfood">
+            <h2><a href="helthyfood.html">Healthy Foods</a></h2>
+            <ul>
+                <li>Sprouts Salad</li>
+                <li>Oats Upma</li>
+                <li>Quinoa Salad</li>
+                <li>Vegetable Soup</li>
+                <li>Ragi Dosa</li>
+                <li>Brown Rice Pulao</li>
+                <li>Moong Dal Chilla</li>
+                <li>Poha</li>
+                <li>Multigrain Roti</li>
+                <li>Veg Sandwich (brown bread)</li>
+                <li>Idli (steamed)</li>
+                <li>Daliya (Broken Wheat Upma)</li>
+                <li>Spinach Soup</li>
+                <li>Khichdi</li>
+                <li>Fruit Salad</li>
+                <li>Vegetable Wrap</li>
+                <li>Paneer Tikka (grilled)</li>
+                <li>Boiled Egg Salad</li>
+                <li>Millet Roti</li>
+                <li>Grilled Fish (healthy)</li>
+            </ul>
+        </div>
+
+        <div class="indianfood">
+            <h2><a href="juices.html">Juices</a></h2>
+            <ul>
+                <li>Orange Juice</li>
+                <li>Apple Juice</li>
+                <li>Pineapple Juice</li>
+                <li>Watermelon Juice</li>
+                <li>Mango Shake</li>
+                <li>Banana Shake</li>
+                <li>Pomegranate Juice</li>
+                <li>Grape Juice</li>
+                <li>Papaya Juice</li>
+                <li>Guava Juice</li>
+                <li>Lemon Juice</li>
+                <li>Kiwi Juice</li>
+                <li>Strawberry Shake</li>
+                <li>Chikoo Shake</li>
+                <li>Coconut Water</li>
+                <li>Carrot Juice</li>
+                <li>Beetroot Juice</li>
+                <li>Mosambi Juice</li>
+                <li>Lychee Juice</li>
+                <li>Mixed Fruit Juice</li>
+            </ul>
+        </div>
+
+        <div class="indianfood">
+            <h2><a href="pickles.html">Pickles</a></h2>
+            <ul>
+                <li>Mango Pickle</li>
+                <li>Lemon Pickle</li>
+                <li>Green Chili Pickle</li>
+                <li>Garlic Pickle</li>
+                <li>Amla Pickle</li>
+                <li>Carrot Pickle</li>
+                <li>Mixed Veg Pickle</li>
+                <li>Ginger Pickle</li>
+                <li>Red Chili Pickle</li>
+                <li>Onion Pickle</li>
+                <li>Cabbage Pickle</li>
+                <li>Turnip Pickle</li>
+                <li>Beetroot Pickle</li>
+                <li>Cucumber Pickle</li>
+                <li>Cauliflower Pickle</li>
+                <li>Raw Turmeric Pickle</li>
+                <li>Radish Pickle</li>
+                <li>Bamboo Shoot Pickle</li>
+                <li>Tomato Pickle</li>
+                <li>Curry Leaf Pickle</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <div class="contact">
+            <h3> Contact Information </h3>
+            <p> * Email :- bhumikanamdev24@navgurukul.org </p>
+            <p> * Phone Number :- 9617491718 </p>
+        </div>
+        <div class="social">
+            <h3> Social Media </h3>
+            <p>* Facebook </p>
+            <p>* Instagram </p>
+            <p> * YouTube </p>
+            <p> Follow us on Instagram, YouTube, Facebook</p>
+
+        </div>
+        <div class="quick">
+            <h3>Quick Links </h3>
+            <p><a href="menu.html">Manu</a></p>
+        </div>
+        <div class="aboutF">
+            <h3>About Section</h3>
+            <p>"This website is a simple recipe collaction made with love for food lovers."</p>
+        </div>
+    </footer>
+</body>
+</html>
